@@ -1,0 +1,176 @@
+               /*Fundo amarelo do site*/
+body {
+    background: yellow;
+}
+             /*Cor de fundo cabeçalho*/
+header {
+    background: rgb(19, 18, 18);
+}
+             /*Conteúdo do cabeçalho*/
+
+h1 {
+    background: rgb(19, 18, 18);
+    color: rgb(216, 202, 13);
+    text-transform: uppercase;
+    font-size: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+            /*Subtítulo 'Adote Aqui' do cabeçalho*/
+.subtitle {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 265px 0 0;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+            /*Área de navegação da página*/
+nav {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Andada Pro', serif;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: white;
+}
+             /*Aparência da apresentação*/            
+.apresentacao {
+    border: 2px solid black;
+    border-radius: 20px;
+    background: black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.apresentacao > *{
+
+    width: 50%;
+
+}
+                 /*Classe do subtítulo 'Por que adotar?'*/
+.pqadota {
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+                    /*Aparência do conteúdo de apresentação*/
+.texto {
+    font-size: 20px;
+    color: white;
+    font-family: 'Andada Pro', serif;
+}
+
+.box {
+    width: 25%;
+    margin-right: 100px;
+}
+
+.crianca {
+    height: 300px;
+    width: 450px;
+}
+
+main {
+    margin-bottom: 10px;
+}
+
+.caixa {
+    position: relative;
+    width: 800px;
+    margin:0 auto;
+}
+
+.imagem {
+    height: 60px; 
+    width: 60px;
+    border-radius: 10px;
+}
+                    /*Conteúdo principal da página*/
+ul li img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 8px 8px;
+    border: solid black 2px;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li h2 {
+    border: black;
+    border-radius: 10px;
+    color: yellow;
+    background: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+
+ul li h2:hover {
+    border: white solid 3px;
+    font-size: 28px;
+}
+
+ul li h2:active {
+    background: white;
+    color: black;
+}
+                        /*Aparência do rodapé*/
+footer {
+    background: rgb(19, 18, 18);
+    text-align: center;
+    margin-top: 100px;   
+}
+                        /*Aparência do texto de copyright*/
+.copyright {
+    font-size: 13px;
+    color: white;
+}
